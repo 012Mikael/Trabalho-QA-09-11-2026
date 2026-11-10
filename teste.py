@@ -15,5 +15,5 @@ print("Beatriz Santos")
 print("10/11/2026.")
 
 print(50*("="))
-print("Conclusão do Relatorio")
+print("Testes Concluidos")
 print(50*("="))
