@@ -21,7 +21,7 @@ modulo = "Rastreamento e Geolocalização em Tempo Real"
 
 projeto = "FastDelivery Logística"
 
-
+#Mikael
 
 print("======================================== RELATÓRIO DE EXECUÇÃO DE TESTES ========================================")
 print("Projeto: " + projeto)
@@ -31,7 +31,7 @@ print("Data de Execução " + data)
 print("Texte Aprovado: " + testes_aprovados)
 print("Texte Reprovados: " + testes_reprovados)
 print("Texte Não Executados: " + testes_nao_executados)
-print("---------------------------------------- RESULTADOS REGISTRADOS ---------------------------------------- ")
+print("----------------------------------------REGISTRO CONCLUÍDO-------------------------------------- ")
 
 
 
