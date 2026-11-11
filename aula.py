@@ -21,6 +21,12 @@ modulo = "Rastreamento e Geolocalização em Tempo Real"
 
 projeto = "FastDelivery Logística"
 
+Total_de_testes = testes_aprovados + testes_reprovados + testes_nao_executados
+Testes_executados = testes_aprovados + testes_reprovados
+Taxa_de_aprovação = (testes_aprovados/Testes_executados) * 100 
+Taxa_de_reprovação = (testes_reprovados /Testes_executados ) * 100 
+Taxa_de_não_executados = (testes_nao_executados /Total_de_testes) * 100 
+
 #Mikael
 
 print("======================================== RELATÓRIO DE EXECUÇÃO DE TESTES ========================================")
@@ -33,10 +39,16 @@ print(f"Testes Reprovados: {testes_reprovados}" )
 print(f"Testes Não Executados: {testes_nao_executados} " )
 print("----------------------------------------REGISTRO CONCLUÍDO-------------------------------------- ")
 
+#parte 3 (Bryan)
 
-
+print(f"Total de testes: {Total_de_testes:.2f}%")
+print(f"Testes executados: {Testes_executados:.2f}%")
+print(f"Taxa de aprovação: {Taxa_de_aprovação:.2f}%")
+print(f"Taxa de reprovação:{Taxa_de_reprovação:.2f}%")
+print(f"Taxa de não executados:{Taxa_de_não_executados:.2f}%")
 
  
 
 
 
+ 
